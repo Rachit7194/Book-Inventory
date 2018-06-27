@@ -1,0 +1,9 @@
+Greetings..!!!
+
+You just signedup for an account {{site.name}}. please click the link below to activate..!!
+
+http://{{site.domain}}{% url 'registration_activate' activation_key %}
+
+This link is valid for {{ expiration_days }}. If this wasn't you that signed up for this account, don't panic.! Its safe to ignore this email.
+
+-Inventory Books Team

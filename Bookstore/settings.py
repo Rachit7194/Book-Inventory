@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'store.apps.StoreConfig',
+    'registration',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +121,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#registration
+ACCOUNT_ACTIVATION_DAYS = 7
